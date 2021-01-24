@@ -1,0 +1,28 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.header{
+    display: flex;
+    background-color: powderblue;
+    justify-self: end;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: powderblue;
+    font-size: 20ps;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.origami{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    width: 310px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: lightsteelblue;
+}
